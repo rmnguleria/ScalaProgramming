@@ -1,0 +1,18 @@
+package Week1
+
+object SquareRoot {
+  //1+2
+  def abs(x: Double): Double = if (x<0) -x else x
+  
+  def sqrtIter(guess: Double,x: Double): Double = {
+  	if(isGoodEnough(guess,x)) guess
+  	else sqrtIter(improve(guess,x),x)
+  }
+  
+  def isGoodEnough(guess: Double , x: Double): Boolean = 
+  	abs(guess*guess - x) < 0.0001
+  	
+  
+  
+  
+}

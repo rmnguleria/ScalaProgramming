@@ -1,0 +1,8 @@
+package Week2
+
+object TailRecursion {
+	def fact1(x: Int): Int =
+		if(x==0) 1 else x*fact1(x-1)      //> fact1: (x: Int)Int
+	                                          //> res0: Int = 24
+	fact1(4)
+}

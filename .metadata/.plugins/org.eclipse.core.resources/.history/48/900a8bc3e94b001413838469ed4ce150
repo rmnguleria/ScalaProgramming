@@ -1,0 +1,7 @@
+package Week1
+
+object SquareRoot {
+  //1+2                                           //> res0: Int(3) = 3
+  def abs(x:Double): Double = if (x<0) -x else x
+   
+}

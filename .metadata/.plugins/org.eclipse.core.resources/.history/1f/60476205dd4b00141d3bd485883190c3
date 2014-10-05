@@ -1,0 +1,5 @@
+package Week1
+
+object SquareRoot {
+  1+2                                             //> Welcome to the Scala worksheet
+}
