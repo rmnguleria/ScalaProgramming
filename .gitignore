@@ -1,2 +1,4 @@
 example/lib_managed
 .metadata
+funsets/lib_managed
+recfun/lib_managed
