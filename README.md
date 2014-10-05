@@ -1,6 +1,7 @@
 Functional Programming in Coursera -
 
-Assignments here:- 
+Assignments here:-
+
 0. funprog -> (Just Week 1 small programs ) (3 Oct 2014)
 
 1. example -> Get Started Exercise (4 Oct 2014)
